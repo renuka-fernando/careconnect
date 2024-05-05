@@ -22,8 +22,8 @@ spec:
       schemaFilePath: openapi.yaml
   outbound:
     serviceReferences:
-    - name: choreo:///codechallenge/appointment-management/cmrqnc/8b1c3/v1.0/ORGANIZATION
-      connectionConfig: 01eef67c-b6e6-17c0-9120-68782ddbb0c9
+    - name: choreo:///renukasamples/care-connect-appointment/zflrrm/8b1c3/v1/ORGANIZATION
+      connectionConfig: 01ef0ade-2fa2-1f1e-b4f2-985a75045c04
       env:
       - from: ServiceURL
         to: APPOINTMENT_SERVICE_URL
